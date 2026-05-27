@@ -1,0 +1,20 @@
+
+server:
+  port: 9090
+
+spring:
+  application:
+    name: weather-ai-agent
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+
+      chat:
+        model: llama3.1:latest
+
+weather:
+  api:
+    key:  eab6dc7ff73b4671abc84342262205
+
+
